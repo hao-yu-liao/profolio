@@ -1,0 +1,187 @@
+.grid-main{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-bottom: 8rem;
+    /* min-width: 75rem; */
+    display: grid;
+    grid: auto/ 22rem 40rem;
+}
+
+/* .nav-bar{
+    grid-column: 1/2;
+    grid-row: 1/2;
+} */
+
+.content{
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    /* background-color: yellow; */
+}
+
+.image-icon-01{
+    display: inline;
+    width: 1.6rem;
+    /* justify-items: start; */
+}
+
+.image-icon-02{
+    display: inline;
+    width: 1.3rem;
+    margin-bottom: 0.1rem;
+    /* justify-content: start; */
+    margin: 0.4rem;
+}
+
+.icon{
+    display: block;
+    margin-left: 4rem;
+}
+
+/* h1, h2, h3, h4, h5{
+    display: inline-block;
+}
+
+h6, p{
+    display: block !important;
+} */
+
+h1{
+    font-weight: 400 !important;
+    display: inline-block;
+    font-size:4.4rem  !important;
+    /* color: blue; */
+    background-color: #006030;
+    color: white;
+    /* text-decoration:line-through; */
+}
+
+h2{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    font-size: 1.7rem !important;
+    color: #006030;
+}
+
+h5{
+    font-weight: 400 !important;
+    padding-top: 0.8rem;
+    font-size: 1rem !important;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+
+
+h6{
+    font-size: 1rem;
+    /* color: blue; */
+}
+
+p{
+    font-size: 0.9rem !important;
+    display: block;
+    text-indent: 2em;
+    padding-top: 1rem;
+    text-align: justify;
+    text-justify:inter-ideograph;
+
+}
+
+.image{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 40rem;
+}
+
+.image-80{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    width: 32rem;
+}
+
+.image-04{
+    margin-top: 2rem;
+    /* margin-bottom: 3rem; */
+    width: 40rem;
+}
+
+.image-07{
+    margin-bottom: 1.5rem;
+    /* margin-bottom: 3rem; */
+    width: 32rem;
+}
+
+.image-06{
+    margin-top: 2rem;
+    /* margin-bottom: 3rem; */
+    width: 32rem;
+}
+
+.outline{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.section{
+    margin-top: 6rem;
+}
+
+.illustration{
+    font-size: 0.7rem !important;
+    text-indent: 0em;
+    margin-left: 2rem;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+.reference{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-style: italic;
+    color: seagreen;
+}
+
+.orange{
+    width: 13rem;
+    height: 36rem;
+    background-color: coral;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: -5rem;
+    margin-left: 2rem;
+}
+
+.menu{
+    display: block;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.nav-bar{
+    width: 18rem;
+    position: fixed;
+    z-index: 2;
+}
+
+a{
+    text-decoration: line-through!important;
+}
+
+a:hover {
+    text-decoration: none!important;
+    background-color: white !important;
+    color: black !important;
+}
+
+.h5{
+    display: block;
+    font-weight: 400 !important;
+    padding-top: 0.8rem;
+    font-size: 1rem !important;
+    /* text-decoration: line-through!important; */
+    font-style: italic;
+    color: black;
+}
